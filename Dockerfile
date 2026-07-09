@@ -1,4 +1,4 @@
-FROM richarvey/index.php:latest
+FROM richarvey/nginx-php-fpm:latest
 
 # Copy your PHP website files into the container
 COPY . /var/www/html
