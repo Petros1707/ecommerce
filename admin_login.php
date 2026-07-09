@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </div>
       <button type="submit" class="btn">Sign In</button>
     </form>
-    <a href="../index.html" class="back">← Back to Store</a>
+    <a href="../index.php" class="back">← Back to Store</a>
   </div>
 </body>
 </html>

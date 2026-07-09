@@ -95,7 +95,7 @@ include_once 'cart_count.php';
     <section class="hero">
       <h1>Discover What You'll Love</h1>
       <p style="margin:1rem auto 1.5rem;max-width:600px;opacity:0.9">Quality products, fast delivery, and secure checkout. Start shopping today.</p>
-      <a href="products.html" class="btn">Browse Catalog</a>
+      <a href="products.php" class="btn">Browse Catalog</a>
     </section>
     <h2 style="margin-bottom:1rem">Featured Products</h2>
     <div class="grid">

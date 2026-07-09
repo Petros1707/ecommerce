@@ -72,10 +72,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <header>
     <h2>🛍️ ShopLite</h2>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="cart.html">Cart (2)</a>
-      <a href="login.html">Login</a>
+      <a href="index.php">Home</a>
+      <a href="products.php">Products</a>
+      <a href="cart.php">Cart</a>
+      <a href="login.php">Login</a>
     </nav>
   </header>
   <main>
