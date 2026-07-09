@@ -1,7 +1,13 @@
 FROM richarvey/nginx-php-fpm:latest
 
-# Copy project files
-COPY . /var/www/html
+# Set the working directory
+WORKDIR /var/www/html
 
-# Tell the image to change its web root to your subfolder (e.g., public)
-ENV WEBROOT /var/www/html/public
+# Copy all project files into the container
+COPY . .
+
+# Set correct permissions so Nginx can read the files
+RUN chown -R www-data:www-data /var/www/html
+
+# Expose port 80
+EXPOSE 80
