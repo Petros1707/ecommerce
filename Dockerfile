@@ -1,7 +1,7 @@
 FROM richarvey/nginx-php-fpm:latest
 
-# Copy your PHP website files into the container
+# Copy project files
 COPY . /var/www/html
 
-# Tell Render to use port 80
-EXPOSE 80
+# Tell the image to change its web root to your subfolder (e.g., public)
+ENV WEBROOT /var/www/html/public
